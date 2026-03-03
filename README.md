@@ -1,5 +1,7 @@
 # Maneuver-2026
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6d12931-fffd-4828-ae6a-ade7f47096f7/deploy-status)](https://app.netlify.com/projects/maneuver-2026/deploys)
+
 **FRC 2026 REBUILT Scouting Application**
 
 Maneuver-2026 is a comprehensive scouting application built for the 2026 FRC game season: **REBUILT**. Built on the maneuver-core framework, it provides offline-first PWA capabilities, field-centric data collection, match validation, and advanced analytics—all optimized for the unique challenges of the 2026 game.
