@@ -36,6 +36,7 @@ interface ProcessingResult {
 
 const APIDataPage: React.FC = () => {
   // API calls are proxied through Netlify Functions (server-side keys)
+  //updated to use .env variables
   const apiKey = import.meta.env.VITE_TBA_API_KEY;
   const nexusApiKey = import.meta.env.VITE_NEXUS_API_KEY;
 
