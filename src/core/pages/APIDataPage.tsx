@@ -36,8 +36,8 @@ interface ProcessingResult {
 
 const APIDataPage: React.FC = () => {
   // API calls are proxied through Netlify Functions (server-side keys)
-  const apiKey = '';
-  const nexusApiKey = '';
+  const apiKey = 'ssEJ2MyRF7qpMdoCUIq4N53HdMVUpyGPesObqdxwGrWqWxI6vnUbViyolShqpdBg';
+  const nexusApiKey = '3TIbDF5GWjqY-9lOQMqC0F52kYY';
 
   // Shared state for configuration
   const [eventKey, setEventKey] = useState('');
