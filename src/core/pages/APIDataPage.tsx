@@ -36,8 +36,12 @@ interface ProcessingResult {
 
 const APIDataPage: React.FC = () => {
   // API calls are proxied through Netlify Functions (server-side keys)
-  const apiKey = 'ssEJ2MyRF7qpMdoCUIq4N53HdMVUpyGPesObqdxwGrWqWxI6vnUbViyolShqpdBg';
-  const nexusApiKey = '3TIbDF5GWjqY-9lOQMqC0F52kYY';
+  const apiKey = import.meta.env.VITE_TBA_API_KEY;
+  const nexusApiKey = import.meta.env.VITE_NEXUS_API_KEY;
+
+if (!apiKey || !nexusApiKey) {
+  throw new Error('API keys are missing in environment variables');
+}
 
   // Shared state for configuration
   const [eventKey, setEventKey] = useState('');
